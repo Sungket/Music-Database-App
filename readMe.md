@@ -1,0 +1,1 @@
+This project is a remake of the Music Database made in Laravel, Vue, and PHP.
