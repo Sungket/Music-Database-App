@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" />
     <title>Home Page</title> 
 </head>
 <body>
