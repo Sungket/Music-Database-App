@@ -12,4 +12,3 @@ import { Head, Link } from '@inertiajs/vue3';
         <h1>Hello Vue and Laravel World!</h1>
     </div>
 </template>
-
