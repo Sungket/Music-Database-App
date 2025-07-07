@@ -11,7 +11,7 @@ Route::get('/', function () {
     return Inertia::render('HomePage');
 })->name('home');
 
-Route::get('/', function () {
+Route::get('/loginpage', function () { //login is a reserved word in laravel and routes to the official login page
     return Inertia::render('Login');
 })->name('login');
 

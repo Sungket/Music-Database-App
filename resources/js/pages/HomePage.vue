@@ -8,6 +8,11 @@ import { Head, Link } from '@inertiajs/vue3';
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     </Head>
 
+    <nav>
+        <a href="/">Home</a>
+        <a href="/loginpage">Login</a>
+    </nav>
+
     <div>
         <h1>Hello Vue and Laravel World!</h1>
     </div>
