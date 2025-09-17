@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use wapmorgan\Mp3Info\Mp3Info;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Song>
@@ -15,8 +16,6 @@ class SongFactory extends Factory
      * @return array<string, mixed>
      */
 
-    use wapmorgan\Mp3Info\Mp3Info;
-
     public function definition(): array
     {
         $files = Storage::disk('public')->files('songs');
@@ -27,8 +26,8 @@ class SongFactory extends Factory
         return [
             'title' => $this->faker->sentence(3),
             'artist' => $this->faker->name,
-            'file-path' => 'songs/' . $this->faker->slug . '.mp3',
-            'duration' => $this->faker->numberBetween(60, 600), //1 - 10 minutes
+            'file-path' => $file,
+            'duration' => (int) $mp3->duration, // duration in seconds
         ];
     }
 }
