@@ -1,0 +1,29 @@
+[90m= [39m[34;4mIlluminate\Database\Eloquent\Collection[39;24m {#6359
+    [34mall[39m: [
+      [34;4mApp\Models\Song[39;24m {#6366
+        [34mtitle[39m: "[32mAd deleniti nihil nobis voluptas.[39m",
+        [34martist[39m: "[32mMrs. Thelma Doyle II[39m",
+        [34mfile-path[39m: "[32msongs/Randy Orton - Voices.mp3[39m",
+        [34mduration[39m: [35m207[39m,
+      },
+      [34;4mApp\Models\Song[39;24m {#6378
+        [34mtitle[39m: "[32mAutem qui id distinctio repudiandae.[39m",
+        [34martist[39m: "[32mProf. Manuela Hilpert[39m",
+        [34mfile-path[39m: "[32msongs/John Cena - The Time Is Now.mp3[39m",
+        [34mduration[39m: [35m177[39m,
+      },
+      [34;4mApp\Models\Song[39;24m {#6374
+        [34mtitle[39m: "[32mVoluptate sit velit.[39m",
+        [34martist[39m: "[32mMs. Ariane Bergstrom[39m",
+        [34mfile-path[39m: "[32msongs/John Cena - The Time Is Now.mp3[39m",
+        [34mduration[39m: [35m177[39m,
+      },
+      [34;4mApp\Models\Song[39;24m {#6370
+        [34mtitle[39m: "[32mDoloribus non velit.[39m",
+        [34martist[39m: "[32mMadison Hahn[39m",
+        [34mfile-path[39m: "[32msongs/Lojay x Sarz Monalisa.mp3[39m",
+        [34mduration[39m: [35m214[39m,
+      },
+    ],
+  }
+
